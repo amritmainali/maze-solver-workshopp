@@ -44,7 +44,7 @@ void red ()
 }
 void blue ()
 {
-  digitalWrite(2,HIGH);
+  digitalWrite(13,HIGH);
 
   /*
     digitalWrite (3, HIGH);
@@ -54,8 +54,6 @@ void blue ()
 }
 void lightsoff()
 {
-  digitalWrite(2,LOW);
-  digitalWrite(8,LOW);
   digitalWrite(13,LOW);
   /*
     digitalWrite (3, LOW);
